@@ -275,7 +275,7 @@ class DrawingBoard extends React.Component {
             </div>
           </div>
         </div>
-        <footer className="footer z-50 border-t border-black items-center p-2 text-black ">
+        <footer className="footer z-50 border-t border-black items-center p-4 text-black ">
           <div className="items-center grid-flow-col">
             <svg
               xmlns="http://www.w3.org/2000/svg"
