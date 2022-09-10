@@ -32,15 +32,22 @@ function Hero({ Web3Handler, account }) {
 
             {account ? (
               <div className="flex flex-col w-full">
-                <button className={styles.playbutton}>Draw!</button>
+                <button
+                  onClick={() => {
+                    window.location.href = "/draw";
+                  }}
+                  className={styles.playbutton}
+                >
+                  Draw!
+                </button>
                 <button className={styles.roombutton}>Rank doodls</button>
               </div>
             ) : (
               <div className="hidden flex-col w-full">
-                <button disabled className={styles.playbutton}>
+                <a href="/draw" className={styles.playbutton}>
                   Draw!
-                </button>
-                <button className={styles.roombutton}>Rank Others</button>
+                </a>
+                <button className={styles.roombutton}>Rank</button>
               </div>
             )}
             <div className="flex items-center justify-center opacity-50">

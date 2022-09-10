@@ -12,7 +12,7 @@ function CountdownTimer() {
   const renderer = ({ hours, minutes, seconds, completed }: Props) => {
     if (completed) {
       return (
-        <div className="stats border border-black shadow flex space-between">
+        <div className="countdown stats border border-black shadow flex space-between">
           <div className="stat place-items-center">
             <div className="stat-title">{hours}</div>
             <div className="stat-value">hours</div>

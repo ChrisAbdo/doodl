@@ -34,7 +34,7 @@ function Navbar({ Web3Handler, account }) {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl rounded">
+        <a href="/" className="btn btn-ghost normal-case text-xl rounded">
           doodl
           <svg
             xmlns="http://www.w3.org/2000/svg"
